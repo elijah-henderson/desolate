@@ -1189,7 +1189,7 @@ class Camp:
 game = Game(1, 100, 100, 100, 0, random.randint(0, 5))
 player = Player(0, 0, 100, 100, 100, 100, 0, 500, 0,
                 20, 0, 0, 0, "neutral", 100, False)
-camp = Camp([], 0, 0, 0, 0, 0, 0, 0, 0, 100)
+camp = Camp(0, 0, 0, 0, 0, 0, 0, 0, 100)
 player.items.append("Knife")
 player.items.append("Pistol")
 game.menu()
